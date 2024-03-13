@@ -1,5 +1,5 @@
 const getShippingCost = country => {
-  shippingPrice = 0;
+  let shippingPrice = 0;
 
   switch (country) {
     case 'China': {
